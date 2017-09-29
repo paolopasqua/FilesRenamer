@@ -12,8 +12,8 @@ using System.Collections;
 
 /*
 Program information:
-Realized to rename all the files inside a selected foldter with a progressive. 
-You can process the file in alphabetical order or creation data order, ascendent or descendent.
+Realized to rename all the files inside a selected folder with a progressive. 
+You can process the file in alphabetical order or creation data order, ascendant or descendant.
 
 Made by Paolo Pasquali (https://github.com/paolopasqua)
 
