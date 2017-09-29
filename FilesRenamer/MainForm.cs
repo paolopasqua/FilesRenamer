@@ -19,6 +19,7 @@ Made by Paolo Pasquali (https://github.com/paolopasqua)
 
 Icon credits:
 Vectors Market (https://www.flaticon.com/authors/vectors-market)
+
 */
 
 namespace FilesRenamer
