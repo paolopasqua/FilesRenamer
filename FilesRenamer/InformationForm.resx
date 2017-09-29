@@ -119,7 +119,7 @@
   </resheader>
   <data name="lblInformationText.Text" xml:space="preserve">
     <value>Program information:
-Realized to rename all the files inside a selected foldter with a progressive. 
+Realized to rename all the files inside a selected folder with a progressive. 
 You can process the file in alphabetical order or creation data order, ascendent or descendent.
 
 Made by Paolo Pasquali (                                                      )

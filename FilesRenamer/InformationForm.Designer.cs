@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InformationForm));
             this.btnClose = new System.Windows.Forms.Button();
             this.pnlInformation = new System.Windows.Forms.Panel();
+            this.llblIconCredit = new System.Windows.Forms.LinkLabel();
             this.llblAuthor = new System.Windows.Forms.LinkLabel();
             this.lblInformationText = new System.Windows.Forms.Label();
-            this.llblIconCredit = new System.Windows.Forms.LinkLabel();
             this.pnlInformation.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +59,17 @@
             this.pnlInformation.Size = new System.Drawing.Size(338, 143);
             this.pnlInformation.TabIndex = 1;
             // 
+            // llblIconCredit
+            // 
+            this.llblIconCredit.AutoSize = true;
+            this.llblIconCredit.Location = new System.Drawing.Point(85, 125);
+            this.llblIconCredit.Name = "llblIconCredit";
+            this.llblIconCredit.Size = new System.Drawing.Size(242, 13);
+            this.llblIconCredit.TabIndex = 2;
+            this.llblIconCredit.TabStop = true;
+            this.llblIconCredit.Text = "https://www.flaticon.com/authors/vectors-market";
+            this.llblIconCredit.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel_LinkClicked);
+            // 
             // llblAuthor
             // 
             this.llblAuthor.AutoSize = true;
@@ -77,17 +88,6 @@
             this.lblInformationText.Size = new System.Drawing.Size(332, 134);
             this.lblInformationText.TabIndex = 0;
             this.lblInformationText.Text = resources.GetString("lblInformationText.Text");
-            // 
-            // llblIconCredit
-            // 
-            this.llblIconCredit.AutoSize = true;
-            this.llblIconCredit.Location = new System.Drawing.Point(85, 125);
-            this.llblIconCredit.Name = "llblIconCredit";
-            this.llblIconCredit.Size = new System.Drawing.Size(242, 13);
-            this.llblIconCredit.TabIndex = 2;
-            this.llblIconCredit.TabStop = true;
-            this.llblIconCredit.Text = "https://www.flaticon.com/authors/vectors-market";
-            this.llblIconCredit.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel_LinkClicked);
             // 
             // InformationForm
             // 
